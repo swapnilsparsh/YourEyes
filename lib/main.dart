@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:your_eyes/splashscreen.dart';
+import 'package:your_eyes/pages/liquidswipe.dart';
 
 List<CameraDescription> cameras;
 
@@ -20,9 +20,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Helping Hands',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        fontFamily: 'OpenSans',
+      ),
+      // home: SplashScreenPage(),
+      // home: HomeScreen(),
+      home: LiquidSwipeHome(),
       debugShowCheckedModeBanner: false,
-      home: MySplash(),
     );
   }
 }

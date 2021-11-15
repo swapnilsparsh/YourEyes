@@ -6,9 +6,10 @@ import 'package:telephony/telephony.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:tflite/tflite.dart';
+import 'package:your_eyes/pages/liquidswipe.dart';
 
-import 'label/labelbox.dart';
-import 'label/camera.dart';
+import '../label/labelbox.dart';
+import '../label/camera.dart';
 
 class HomePage extends StatefulWidget {
   final List<CameraDescription> cameras;
@@ -38,12 +39,12 @@ class _HomePageState extends State<HomePage> {
   Future<void> initState() {
     super.initState();
     loadModel();
+    return null;
   }
 
   loadModel() async {
     String res = await Tflite.loadModel(
-        model: "assets/Model.tflite",
-        labels: "assets/Model.txt");
+        model: "assets/Model.tflite", labels: "assets/Model.txt");
     print("MODEL" + res);
   }
 
@@ -69,6 +70,24 @@ class _HomePageState extends State<HomePage> {
                   widget.cameras,
                   _model,
                   setRecognitions,
+                ),
+                Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.blueAccent, // background
+                      onPrimary: Colors.white, // foreground
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LiquidSwipeHome(),
+                        ),
+                      );
+                    },
+                    child: Text('Go Back'),
+                  ),
                 ),
                 LabelBox(
                     _recognitions == null ? [] : _recognitions,
