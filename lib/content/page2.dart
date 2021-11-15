@@ -31,9 +31,9 @@ class PageTwo extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.only(
                 top: 20.0,
-                bottom: 20.0,
+                bottom: 5.0,
                 left: 20.0,
-                right: 25.0,
+                right: 30.0,
               ),
               child: Column(
                 children: [
@@ -42,13 +42,13 @@ class PageTwo extends StatelessWidget {
                     child: Image.asset('assets/images/braille_code.png'),
                   ),
                   SizedBox(
-                    height: 32.0,
+                    height: 25.0,
                   ),
                   Text.rich(
                     TextSpan(
                       text: 'Braille Code is a tactile code enabling',
                       style: TextStyle(
-                        fontSize: 19,
+                        fontSize: 18,
                         fontFamily: 'OpenSans',
                         decoration: TextDecoration.none,
                         color: Colors.white,
@@ -77,9 +77,9 @@ class PageTwo extends StatelessWidget {
           ),
           Container(
             width: 420,
-            height: 210,
+            height: 190,
             padding: new EdgeInsets.only(
-              bottom: 20.0,
+              bottom: 10.0,
               left: 20.0,
               right: 30.0,
             ),
