@@ -14,7 +14,7 @@ class _MySplashState extends State<MySplash> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 3,
-      image: Image.asset('assets/images/volunteering.png'),
+      image: Image.asset('assets/images/Asset_4.png'),
       navigateAfterSeconds: new HomePage(cameras),
       backgroundColor: Color.fromRGBO(108, 114, 203, 1),
       photoSize: 180,

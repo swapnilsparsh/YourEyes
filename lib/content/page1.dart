@@ -13,6 +13,7 @@ class PageOne extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          SizedBox(height: 30.0),
           Center(
             child: Padding(
               padding: EdgeInsets.only(top: 30.0),
@@ -27,6 +28,7 @@ class PageOne extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 10.0),
           Container(
             child: Padding(
               padding: EdgeInsets.only(
@@ -39,10 +41,10 @@ class PageOne extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset('assets/images/launch_image.png'),
+                    child: Image.asset('assets/images/Asset_1.png'),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 28.0,
                   ),
                   Text.rich(
                     TextSpan(
@@ -73,6 +75,7 @@ class PageOne extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20.0),
           Column(
             children: [
               Container(
@@ -133,6 +136,7 @@ class PageOne extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 20.0),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               primary: Color.fromRGBO(203, 105, 193, 1), // background

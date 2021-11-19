@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/launch_image" />
+            android:src="@drawable/launch_img" />
     </item>
     <item  android:bottom="25dp" > 
         <bitmap

@@ -13,6 +13,7 @@ class PageThree extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          SizedBox(height: 30),
           Center(
             child: Padding(
               padding: EdgeInsets.only(top: 30.0),
@@ -27,6 +28,7 @@ class PageThree extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20.0),
           Container(
             child: Padding(
               padding: EdgeInsets.only(
@@ -39,7 +41,7 @@ class PageThree extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset('assets/images/visionskills.png'),
+                    child: Image.asset('assets/images/Asset_5.png'),
                   ),
                   SizedBox(
                     height: 10.0,
@@ -79,6 +81,7 @@ class PageThree extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20.0),
           Column(
             children: [
               Container(
@@ -139,6 +142,7 @@ class PageThree extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 20.0),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               primary: Color.fromRGBO(23, 24, 31, 1), // background
