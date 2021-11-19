@@ -40,7 +40,7 @@ class PageThree extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset('assets/images/Asset_5.png'),
+                    child: Image.asset('assets/images/visionskills.png'),
                   ),
                   SizedBox(
                     height: 20.0,
@@ -64,7 +64,7 @@ class PageThree extends StatelessWidget {
                         ),
                         TextSpan(
                           text:
-                              'of teachers and specialists (many of whom are low vision/blind themselves) are highly trained in ',
+                              'of teachers and specialists who are eager to help others (many of whom are low vision/blind themselves) are  highly trained in ',
                         ),
                         TextSpan(
                           text: 'Blind & Low Vision Skills Training.',
