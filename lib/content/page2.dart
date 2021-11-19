@@ -80,7 +80,7 @@ class PageTwo extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
+          Spacer(),
           Column(
             children: [
               Container(

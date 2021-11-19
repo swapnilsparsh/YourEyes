@@ -32,7 +32,7 @@ class PageOne extends StatelessWidget {
           Container(
             child: Padding(
               padding: EdgeInsets.only(
-                top: 10.0,
+                top: 20.0,
                 bottom: 5.0,
                 left: 20.0,
                 right: 30.0,
@@ -44,7 +44,7 @@ class PageOne extends StatelessWidget {
                     child: Image.asset('assets/images/Asset_1.png'),
                   ),
                   SizedBox(
-                    height: 28.0,
+                    height: 20.0,
                   ),
                   Text.rich(
                     TextSpan(
@@ -75,7 +75,7 @@ class PageOne extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
+          Spacer(),
           Column(
             children: [
               Container(

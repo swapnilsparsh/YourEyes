@@ -13,7 +13,7 @@ class PageThree extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(height: 30),
+          SizedBox(height: 30.0),
           Center(
             child: Padding(
               padding: EdgeInsets.only(top: 30.0),
@@ -28,11 +28,10 @@ class PageThree extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
           Container(
             child: Padding(
               padding: EdgeInsets.only(
-                top: 10.0,
+                top: 20.0,
                 bottom: 5.0,
                 left: 20.0,
                 right: 30.0,
@@ -44,7 +43,7 @@ class PageThree extends StatelessWidget {
                     child: Image.asset('assets/images/Asset_5.png'),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 20.0,
                   ),
                   Text.rich(
                     TextSpan(
@@ -81,7 +80,7 @@ class PageThree extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
+          Spacer(),
           Column(
             children: [
               Container(
