@@ -6,6 +6,9 @@
 
 Our Application aims to bridge the gap between them and the visual world by Deep Learning and lucid User-Interface for easy understanding, accessible on low-ended devices that would allow them to better understand the world around.
 
+#### Download APK
+<pre><a href="https://github.com/swapnilsparsh/YourEyes/raw/master/app.apk">https://github.com/swapnilsparsh/YourEyes/raw/master/app.apk</a></pre>
+
 ## 🛠️ Installation Steps
 Star and Fork the Repo 🌟 and this will keep us motivated.
 
