@@ -36,6 +36,7 @@ dependencies:
   http:
   imgur: ^1.1.1
   path: ^1.7.0
+  path_provider:
   telephony: ^0.0.2
   liquid_swipe: ^2.1.1
   url_launcher: ^5.7.10
@@ -74,6 +75,8 @@ flutter:
     - assets/images/
     - assets/Model.tflite
     - assets/Model.txt
+    - assets/labels.txt
+    - assets/model_unquant.tflite
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

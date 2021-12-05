@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:your_eyes/pages/made_by.dart';
+import 'package:your_eyes/pages/splashscreen2.dart';
 
 class PageTwo extends StatelessWidget {
   // const PageTwo({Key? key}) : super(key: key);
@@ -144,11 +145,18 @@ class PageTwo extends StatelessWidget {
           SizedBox(height: 20.0),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: Color.fromRGBO(108, 114, 203, 1), // background
+              primary: Color.fromRGBO(203, 105, 193, 1), // background
               onPrimary: Colors.white, // foreground
             ),
-            onPressed: _launchURL,
-            child: Text('Read More on Braille Code'),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MySplash2(),
+                ),
+              );
+            },
+            child: Text('Start Our Application'),
           ),
           Spacer(),
           Row(
