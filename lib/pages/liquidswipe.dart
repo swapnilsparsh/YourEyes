@@ -13,7 +13,6 @@ class LiquidSwipeHome extends StatelessWidget {
       pages: [
         PageOne(),
         PageTwo(),
-        PageThree(),
       ],
       enableSideReveal: true,
       positionSlideIcon: 0.5,

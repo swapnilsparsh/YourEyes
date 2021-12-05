@@ -19,7 +19,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   List<dynamic> _recognitions;
   int _imageHeight = 0;
   int _imageWidth = 0;
@@ -74,13 +73,17 @@ class _HomePageState extends State<HomePage> {
                   padding: EdgeInsets.fromLTRB(10.0, 60.0, 10.0, 10.0),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.blueAccent, // background
-                      onPrimary: Colors.white, // foreground
-                    ),
+                        primary: Colors.blueAccent, // background
+                        onPrimary: Colors.white,
+                        padding: EdgeInsets.all(30.0) // foreground
+                        ),
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: Text('Go Back'),
+                    child: Text(
+                      'Go Back',
+                      style: TextStyle(fontSize: 20.0),
+                    ),
                   ),
                 ),
                 LabelBox(

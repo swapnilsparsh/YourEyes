@@ -20,7 +20,7 @@ class _MySplashState extends State<MySplash> {
       photoSize: 180,
       loaderColor: Colors.white,
       loadingText: Text(
-        'Loading...\n\n Made with ❤️ by Jatin & Swapnil',
+        'Loading...\n\n Made with ❤️ by Jatin, Swapnil & Tript',
         textAlign: TextAlign.center,
         style: TextStyle(
           fontSize: 15.0,

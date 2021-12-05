@@ -18,7 +18,7 @@ class PageThree extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.only(top: 30.0),
               child: Text(
-                'Vision Skills',
+                'Your Eyes',
                 style: TextStyle(
                   fontSize: 30,
                   fontFamily: 'OpenSans',
@@ -43,44 +43,12 @@ class PageThree extends StatelessWidget {
                     child: Image.asset('assets/images/visionskills.png'),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 50.0,
                   ),
-                  Text.rich(
-                    TextSpan(
-                      text: 'Blind & Low Vision Skills Training,',
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontFamily: 'OpenSans',
-                        decoration: TextDecoration.none,
-                        color: Colors.white,
-                      ),
-                      children: <TextSpan>[
-                        TextSpan(
-                          text: ' Light House Team ',
-                          style: TextStyle(
-                            fontStyle: FontStyle.normal,
-                            color: Color.fromRGBO(23, 24, 31, 1),
-                          ),
-                        ),
-                        TextSpan(
-                          text:
-                              'of teachers and specialists who are eager to help others (many of whom are low vision/blind themselves) are  highly trained in ',
-                        ),
-                        TextSpan(
-                          text: 'Blind & Low Vision Skills Training.',
-                          style: TextStyle(
-                            fontStyle: FontStyle.normal,
-                            color: Color.fromRGBO(23, 24, 31, 1),
-                          ),
-                        ),
-                      ],
-                    ),
-                  )
                 ],
               ),
             ),
           ),
-          Spacer(),
           Column(
             children: [
               Container(
